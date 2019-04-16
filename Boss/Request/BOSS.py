@@ -32,5 +32,7 @@ def AutoDownlord(filename):
     path = root + "/" + page.__str__() + ".html"
     GetContent(url, root, path, agent)
 
+def OrderHTML():
+	print("1")
 
 AutoDownlord("java")
